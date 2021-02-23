@@ -1,24 +1,22 @@
 <template>
   <div class="home-page">
-    <div class="a">
-      <div class="route">跳转</div>
-    </div>
+    <div class="a"></div>
   </div>
 </template>
-<script >
-  
+
+<script>
+export default {
+
+}
 </script>
-<style>
+
+<style lang='scss'>
 .home-page{
-  width: 100%;
-  height: 100%;
+  background: red;
 }
 .a{
+  width: 100%;
   height: 100px;
   background: red;
 }
 </style>
-
-
-
-

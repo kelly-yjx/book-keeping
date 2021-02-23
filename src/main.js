@@ -1,7 +1,13 @@
-import { createApp } from 'vue'
+import {
+  createApp
+} from 'vue'
 import App from './App.vue'
-// import ElementUI from 'element-ui';
-// import 'element-ui/lib/theme-chalk/index.css';
+import router from '@/router/index'
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
 
-// Vue.use(ElementUI);
-createApp(App).mount('#app')
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
+app.use(Antd);
