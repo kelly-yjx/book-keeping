@@ -1,12 +1,20 @@
 <template>
   <div class="home-page">
     <div class="a">
-      <div class="route">跳转</div>
+      <div class="route" @click="route">跳转</div>
     </div>
   </div>
 </template>
 <script >
-  
+  export default {
+    methods:{
+      route(){
+        this.$router.push({
+         path:'/commin'
+        })
+      }
+    }
+}
 </script>
 <style>
 .home-page{

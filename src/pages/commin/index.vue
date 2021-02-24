@@ -12,7 +12,6 @@ export default {
 
 <style lang='scss'>
 .home-page{
-  background: red;
 }
 .a{
   width: 100%;
