@@ -1,7 +1,8 @@
 <template>
   <div class="layout">
     <Sider />
-    <!-- <router-view :key="key" /> -->
+    <router-view  :key='key' />
+    
   </div>
 </template>
 <script>
@@ -12,6 +13,9 @@ export default {
     key(){
       return this.$router.path
     }
+  },
+  created(){
+    console.log('加载模板')
   }
 }
 </script>

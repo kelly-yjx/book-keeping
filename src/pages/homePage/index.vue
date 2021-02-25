@@ -7,6 +7,9 @@
 </template>
 <script >
   export default {
+    created(){
+      console.log(11)
+    },
     methods:{
       route(){
         this.$router.push({
@@ -18,7 +21,6 @@
 </script>
 <style>
 .home-page{
-  width: 100%;
   height: 100%;
 }
 .a{
